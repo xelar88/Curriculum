@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página web completa</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="#inicio" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#sobre-mi" id="enlace-sobre-mi" class="btn-header">Sobre mi</a>
+                    <a href="#formacion" id="enlace-formacion" class="btn-header">Formación y Proyectos</a>
+                    <a href="#experiencia" id="enlace-experiencia" class="btn-header">Experiencia laboral</a>
+                    <a href="#contacto" id="enlace-contacto" class="btn-header">Contacto</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos" id="inicio">
+            <h1>Alejandro Rosado</h1>
+            <h2></h2>
+        </div>
+    </header>
+    <aside class="sidebar">
+        <div class="profile-picture">
+            <img src="img/preofile.png" alt="Foto de perfil">
+        </div>
+        <div class="info">
+            <h3>Información</h3>
+            <p>Nombre: Alejandro Rosado Royp</p>
+            <p>EmaiL: xelar88@gmail.com</p>
+            <p>Teléfono: +34 688 49 80 76</p>
+        </div>
+    </aside>
+    <main>
+        <section class="about" id="sobre-mi">
+            <div class="contenedor">
+                <h3>Sobre mí</h3>
+                <p class="after">Conoce más sobre mí</p>
+                <p class="descripcion">
+                    Soy un estudiante de Informática especializado en programación y gestión de redes. Tengo experiencia en cursos de inteligencia artificial y me apasiona aprender y trabajar en equipo. Me considero una persona curiosa, flexible y con muchas ganas de crecer profesional e intelectualmente. Además, estoy abierto a la posibilidad de cambiar de lugar de residencia para aprovechar nuevas oportunidades laborales.
+                </p>
+            </div>
+        </section>
+        <section class="work contenedor" id="formacion">
+            <h3>Formación y Proyectos</h3>
+            <p class="after">Hacemos de algo simple algo extraordinario</p>
+            <div class="botones-work">
+                <ul>
+                    <li class="filter active" data-nombre='todos'>Todos</li>
+                    <li class="filter" data-nombre='academicos'>Académicos</li>
+                    <li class="filter" data-nombre='cursos'>Cursos</li>
+                    <li class="filter" data-nombre='proyectos'>Proyectos</li>
+                </ul>
+            </div>
+            <div class="galeria-work">
+                <div class="cont-work academicos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">ASIR</h4>
+                            <div class="img-work">
+                                <img src="img/programacion1.jpeg" alt="ASIR">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>ASIR - Administración de Sistemas Informáticos</h4>
+                            <p>
+                                Este proyecto se centra en la implementación de sistemas informáticos 
+                                en empresas, administrando servidores y redes para garantizar la seguridad y productividad.
+                            </p>
+                            <ul>
+                                <li>Gestión de redes</li>
+                                <li>Configuración de servidores</li>
+                                <li>Resolución de incidencias técnicas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work academicos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Bachillerato de ciencias</h4>
+                            <div class="img-work">
+                                <img src="img/programacion2.jpeg" alt="Bachillerato de ciencias">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Bachillerato de ciencias</h4>
+                            <p>
+                                Formación académica en ciencias, incluyendo matemáticas, física, química y biología.
+                            </p>
+                            <ul>
+                                <li>Matemáticas avanzadas</li>
+                                <li>Física y química</li>
+                                <li>Biología</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work cursos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Programación IA Samsung</h4>
+                            <div class="img-work">
+                                <img src="img/diseño1.jpeg" alt="Programación IA Samsung">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Programación IA Samsung</h4>
+                            <p>
+                                Curso de programación de inteligencia artificial ofrecido por Samsung.
+                            </p>
+                            <ul>
+                                <li>Fundamentos de IA</li>
+                                <li>Programación en Python</li>
+                                <li>Aplicaciones prácticas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work cursos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Sequence Model</h4>
+                            <div class="img-work">
+                                <img src="img/diseño2.jpeg" alt="Sequence Model">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Sequence Model</h4>
+                            <p>
+                                Curso sobre modelos de secuencia en inteligencia artificial.
+                            </p>
+                            <ul>
+                                <li>Modelos de secuencia</li>
+                                <li>Redes neuronales recurrentes</li>
+                                <li>Aplicaciones en procesamiento de lenguaje natural</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work cursos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Structuring Machine Learning Projects</h4>
+                            <div class="img-work">
+                                <img src="img/diseño3.jpeg" alt="Structuring Machine Learning Projects">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Structuring Machine Learning Projects</h4>
+                            <p>
+                                Curso sobre cómo estructurar proyectos de machine learning.
+                            </p>
+                            <ul>
+                                <li>Planificación de proyectos</li>
+                                <li>Implementación de modelos</li>
+                                <li>Evaluación y mejora continua</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work cursos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Improving Deep Neural Networks</h4>
+                            <div class="img-work">
+                                <img src="img/diseño3.jpeg" alt="Improving Deep Neural Networks">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Improving Deep Neural Networks</h4>
+                            <p>
+                                Curso sobre cómo mejorar redes neuronales profundas.
+                            </p>
+                            <ul>
+                                <li>Optimización de hiperparámetros</li>
+                                <li>Regularización</li>
+                                <li>Mejores prácticas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work cursos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Neural Networks and Deep Learning</h4>
+                            <div class="img-work">
+                                <img src="img/diseño3.jpeg" alt="Neural Networks and Deep Learning">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Neural Networks and Deep Learning</h4>
+                            <p>
+                                Curso sobre redes neuronales y aprendizaje profundo.
+                            </p>
+                            <ul>
+                                <li>Fundamentos de redes neuronales</li>
+                                <li>Implementación en Python</li>
+                                <li>Aplicaciones prácticas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work cursos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Data Analytics Essentials</h4>
+                            <div class="img-work">
+                                <img src="img/diseño3.jpeg" alt="Data Analytics Essentials">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Data Analytics Essentials</h4>
+                            <p>
+                                Curso sobre los fundamentos del análisis de datos.
+                            </p>
+                            <ul>
+                                <li>Estadísticas básicas</li>
+                                <li>Visualización de datos</li>
+                                <li>Herramientas de análisis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work cursos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">JavaScript Essentials</h4>
+                            <div class="img-work">
+                                <img src="img/diseño3.jpeg" alt="JavaScript Essentials">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>JavaScript Essentials</h4>
+                            <p>
+                                Curso sobre los fundamentos de JavaScript.
+                            </p>
+                            <ul>
+                                <li>Fundamentos del lenguaje</li>
+                                <li>Manipulación del DOM</li>
+                                <li>Programación orientada a objetos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work cursos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Fundamentos Python</h4>
+                            <div class="img-work">
+                                <img src="img/diseño3.jpeg" alt="Fundamentos Python">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Fundamentos Python</h4>
+                            <p>
+                                Curso sobre los fundamentos de Python.
+                            </p>
+                            <ul>
+                                <li>Fundamentos del lenguaje</li>
+                                <li>Programación orientada a objetos</li>
+                                <li>Aplicaciones prácticas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work proyectos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Título Proyecto 1</h4>
+                            <div class="img-work">
+                                <img src="img/marketing1.jpeg" alt="Título Proyecto 1">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Título Proyecto 1</h4>
+                            <p>
+                                Descripción del proyecto 1.
+                            </p>
+                            <ul>
+                                <li>Detalle 1</li>
+                                <li>Detalle 2</li>
+                                <li>Detalle 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work proyectos">
+                    <div class="tarjeta">
+                        <div class="tarjeta-frontal">
+                            <h4 class="titulo-imagen">Título Proyecto 2</h4>
+                            <div class="img-work">
+                                <img src="img/marketing2.jpeg" alt="Título Proyecto 2">
+                            </div>
+                        </div>
+                        <div class="tarjeta-trasera">
+                            <h4>Título Proyecto 2</h4>
+                            <p>
+                                Descripción del proyecto 2.
+                            </p>
+                            <ul>
+                                <li>Detalle 1</li>
+                                <li>Detalle 2</li>
+                                <li>Detalle 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team contenedor" id="experiencia">
+            <h3>Experiencia Laboral</h3>
+            <p class="after">Conoce mi trayectoria profesional</p>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="img/experiencia1.jpg" alt="Atención cliente en Pans and Company">
+                        <h3>Atención cliente en Pans and Company</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Responsabilidades: Atención al cliente, manejo de caja, preparación de alimentos, limpieza y mantenimiento del área de trabajo.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-front">
+                        <img src="img/experiencia2.jpg" alt="Supervisor de montaje Pantallas TFT">
+                        <h3>Supervisor de montaje Pantallas TFT</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Responsabilidades: Supervisión del montaje de pantallas TFT, aseguramiento de la calidad, coordinación del equipo de trabajo, resolución de problemas técnicos.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-front">
+                        <img src="img/experiencia3.jpg" alt="Animador de Hotel">
+                        <h3>Animador de Hotel</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Responsabilidades: Organización y realización de actividades recreativas, interacción con los huéspedes, promoción de eventos, trabajo en equipo con otros animadores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="footer contenedor">
+            <div class="iconos">
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            <p>La pasión e innovación es lo que nos distingue del resto</p>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+    <script src="js/vuelta.js"></script>
+</body>
+</html>
