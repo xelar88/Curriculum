@@ -13,23 +13,21 @@ function menus(){
         nav.classList.remove('nav2');
         nav.className = ('nav1');
         nav.style.transition = '1s';
-        menu.style.top = '80px';
         abrir.style.color = '#fff';
     }else{
         nav.classList.remove('nav1');
         nav.className = ('nav2');
         nav.style.transition = '1s';
-        menu.style.top = '100px';
         abrir.style.color = '#000';
     }
 }
 
 function apertura(){
     if(cerrado){
-        menu.style.width = '70vw';
+        menu.style.width = '250px'; // Ajusta el ancho del menú
         cerrado = false;
     }else{
-        menu.style.width = '0%';
+        menu.style.width = '0';
         menu.style.overflow = 'hidden';
         cerrado = true;
     }
@@ -45,7 +43,7 @@ window.addEventListener('click',function(e){
     if(cerrado==false){
         let span = document.querySelector('span');
         if(e.target !== span && e.target !== abrir){
-            menu.style.width = '0%';
+            menu.style.width = '0';
             menu.style.overflow = 'hidden';
             cerrado = true;
         }

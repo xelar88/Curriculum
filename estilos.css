@@ -112,12 +112,14 @@ nav {
   color: #fff;
   height: 80px;
   padding: 10px 0;
+  margin-left: 250px;
 }
 
 .nav2 {
   background: var(--fondo);
   height: 100px;
   color: #000;
+  margin-left: 250px;
 }
 
 .contenedor-nav {
@@ -216,16 +218,7 @@ main {
   margin: 5px 0;
 }
 
-/* Estilo general para el nav */
-.nav1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  color: #fff;
-  height: 80px;
-  padding: 10px 0;
-}
+
 
 /* Contenedor de enlaces */
 .contenedor-nav {
